@@ -361,3 +361,14 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# --- extra for frontend ---
+node_modules/
+dist/
+build/
+.vite/
+.next/
+
+# --- secrets & logs ---
+.env
+*.log
